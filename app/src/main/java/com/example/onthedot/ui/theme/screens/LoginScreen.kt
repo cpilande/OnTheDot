@@ -57,7 +57,7 @@ fun LoginScreen() {
             .background(color = Green)
     )
      {
-         Text("On the Dot",
+         Text("On the Dot EXAMPLE",
              style = MaterialTheme.typography.displayLarge)
          Spacer(modifier = Modifier.height(height = 400.dp))
         InputField("Username")
