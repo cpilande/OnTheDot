@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
             setKeepVisibleCondition {
                 viewModel.isLoading.value //while it is true, it will keep it visible
             }
-            //setOnExitAnimationListener - when the animatoin is finished
+            //setOnExitAnimationListener - when the animation is finished
         }
         setContent {
             OnTheDotTheme {
